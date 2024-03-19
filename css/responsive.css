@@ -1,7 +1,7 @@
 @media screen and (max-width: 595px) {
 
     .icono_barra{
-        display: inline-block;
+        display: block;
     }
     nav{
         padding: 0;
