@@ -1,0 +1,32 @@
+@media screen and (max-width: 595px) {
+
+    .icono_barra{
+        display: inline-block;
+    }
+    nav{
+        padding: 0;
+        background-color: #707070;
+    }
+    nav ul{
+        display: none;
+        margin-top: 20px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: black;
+    }
+    nav ul li {
+        text-align: center;
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        padding: 10px 15px;
+        background-color: transparent;
+    }
+    nav ul li a{
+        padding: 5px;
+        display: block;
+    }
+
+
+}

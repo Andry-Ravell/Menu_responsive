@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/2ee0245f3d.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Ejemplo Menu Responsive</title>
+</head>
+<body>
+    <header class="ancho">
+        <h1>Ejemplo Menu Responsive</h1>
+    </header>
+    <nav class="ancho">
+        <i class="fa-solid fa-bars icono_barra i" id="menu"></i>
+        <ul id="contenedor_menu">
+            <li><a href="#"></a>Ejemplo1</li>
+            <li><a href="#"></a>Ejemplo2</li>
+            <li><a href="#"></a>Ejemplo3</li>
+            <li><a href="#"></a>Ejemplo4</li>
+            <li><a href="#"></a>Ejemplo5</li>
+        </ul>
+    </nav>
+    <section>
+        <figure class="ancho">
+            <img src="imagenes/imagen_fondo.jpg" alt="" class="foto">
+        </figure>
+    </section>
+
+    <!--Funciones de Javascript-->
+
+    <script>
+
+        //Funcion Menu
+        $("#menu").click(function () {
+        $('#contenedor_menu').slideToggle();
+        });
+
+    </script>
+
+
+</body>
+</html>
